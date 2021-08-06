@@ -1,24 +1,11 @@
-# todo-app
+# SOLID Todo App
 
-## Project setup
-```
-yarn install
-```
+This Vue based application demonstrates the S.O.L.I.D programming principal within VueJS using TypeScript.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+For more information please visit this Medium article, which helped to create this demo application: https://itnext.io/https-medium-com-manuustenko-how-to-avoid-solid-principles-violations-in-vue-js-application-1121a0df6197
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Things to try
+1. In src/api/api.ts change the provider between fetch and axios. The application should not break
+2. Change which component is displayed in Home.vue by commenting and uncommenting the two components within the `<TodoList></TodoList>` tags
+3. Add your own API provider - perhaps use a different XMLHTTPRequest package?
+4. Add a new way of displaying the todo items. A table perhaps?
