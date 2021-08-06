@@ -6,6 +6,6 @@ For more information please visit this Medium article, which helped to create th
 
 ## Things to try
 1. In src/api/api.ts change the provider between fetch and axios. The application should not break
-2. Change which component is displayed in Home.vue by commenting and uncommenting the two components within the `<TodoList></TodoList>` tags
+2. Change which component is displayed in src/views/Home.vue by commenting and uncommenting the two components within the `<TodoList></TodoList>` tags
 3. Add your own API provider - perhaps use a different XMLHTTPRequest package?
 4. Add a new way of displaying the todo items. A table perhaps?
